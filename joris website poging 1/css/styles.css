@@ -34,19 +34,12 @@ body.riet {
     background-repeat: repeat;
 }
 
+
 body.start {
-/* For width smaller than 400px: */
-body {
-  background-image: url('../img.kleinepaarsepagina.png');
+    background-image: url('../img/paarsepagina.png');
+    background-size: cover;
 }
 
-/* For width 400px and larger: */
-@media only screen and (min-width: 400px) {
-  body {
-    background-image: url('../img/paarsepagina.png');
-  }
-}
-}
 
 .clearfix::after {
     content: "";
@@ -336,7 +329,7 @@ header {
     text-align: center;
   }
 }
-</style>
+
 
 
 
