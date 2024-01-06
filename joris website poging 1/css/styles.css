@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #999;
     background-image: url('../img/NoseGray.png');
     background-repeat: repeat;
+    background-color: #999;
 }
 
 .clearfix::after {
@@ -95,6 +95,19 @@ nav a:hover {
     margin-left: 15px;
 }
 
+.burger-menu-container {
+    display: none; /* Initially hide the burger menu container */
+    margin-left: auto; /* Align to the right */
+}
+
+.burger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
 @media (max-width: 850px) {
     .image-container {
         flex-direction: column;
@@ -104,5 +117,15 @@ nav a:hover {
     .house-image {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .burger-menu-container {
+        display: flex; /* Show the burger menu container */
+        cursor: pointer;
+        justify-content: flex-end; /* Align the burger menu to the right */
+    }
+
+    .logo-nav-container {
+        display: none;
     }
 }
