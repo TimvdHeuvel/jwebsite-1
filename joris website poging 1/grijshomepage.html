@@ -3,26 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Aangepaste pad naar CSS-bestand -->
-    <title>Mijn Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CMD Homepagina</title>
 </head>
-<header class="clearfix"> <!-- Voeg de clearfix-klasse toe aan de header -->
-    <a href="grijshomepage.html">
-        <img src="img/techlab-logo.png" alt="Logo" class="logo">
-    </a>
-    <div class="logo-nav-container">
-        <nav>
-            <ul>
-                <li><a href="steenbenodigdheden.html">Benodigdheden</a></li>
-                <li><a href="#about">Advies</a></li>
-                <li><a href="#contact">Mijn project</a></li>
-                <li><a href="#overons.html">Over ons</a></li>
-            </ul>
-        </nav>
+<header class="clearfix">
+    <a href="startpagina.html"><img src="img/techlab-logo.png" alt="Logo" class="logo"></a>
+    <div class="topnav" id="myTopnav">
+        <a href="steenbenodigdheden.html">Benodigdheden</a>
+        <a href="steenlerarenadvies.html">Advies</a>
+        <a href="mijnprojecten.html">Mijn project</a>
+        <a href="overons.html">Over ons</a>
+        <a href="javascript:void(0);" class="icon" onclick="HamburgerFunction()">
+            <i class="fa fa-bars" style="font-size:35px;color:smokewhite;margin-right: 20px"></i>
+        </a>
     </div>
-    <div class="burger-menu-container">
-        <div class="burger-menu"></div>
-    </div>
+
 </header>
 <body class="general">
     <div class="main-content">
@@ -35,18 +31,31 @@
         </h2>
         <div class="image-container">
             <div>
-                <img src="img/riethuis1.png" alt="steen" class="house-image">
-                <img src="img/ButtonDuurzaam.png" alt="steen" class="button-image">
+                <a href="riethomepage.html"><img src="img/riethuis1.png" alt="steen" class="house-image"></a>
+                <a href="riethomepage.html"><img src="img/ButtonDuurzaam.png" alt="steen" class="button-image"></a>
             </div>
             <div>
-                <img src="img/houthuis1.png" alt="hout" class="house-image">
-                <img src="img/ButtonEsthetisch.png" alt="hout" class="button-image">
+                <a href="houthomepage.html"><img src="img/houthuis1.png" alt="hout" class="house-image"></a>
+                <a href="houthomepage.html"><img src="img/ButtonEsthetisch.png" alt="hout" class="button-image"></a>
             </div>
             <div>
-                <img src="img/steenhuis1.png" alt="riet" class="house-image">
-                <img src="img/ButtonStevig.png" alt="riet" class="button-image">
+                <a href="steenhomepage.html"><img src="img/steenhuis1.png" alt="riet" class="house-image"></a>
+                <a href="steenhomepage.html"><img src="img/ButtonStevig.png" alt="riet" class="button-image"></a>
             </div>
         </div>
     </div>
+
+    <script>
+        function HamburgerFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+
 </body>
 </html>
