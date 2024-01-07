@@ -1,8 +1,8 @@
-3 paragrafen met koptekst -> De drie materiaal homepagina's
-1 afbeelding -> iedere pagina
+Drie paragrafen met koptekst -> De drie materiaal homepagina's
+Een afbeelding -> iedere pagina
 Geneste lijst -> pagina "over ons"
-1 werkende hyperlink -> pagina "over ons"
-Nette Metatags -> overal ?
+Een werkende hyperlink -> pagina "over ons"
+Nette Metatags -> overal
 Fieldset met legend
 textarea -> pagina "over ons"
 submit-knop -> pagina benodigdheden
