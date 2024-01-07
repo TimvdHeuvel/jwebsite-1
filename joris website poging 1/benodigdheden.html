@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/invul.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Benodigdheden pagina</title>
@@ -39,54 +38,38 @@
     </div>
     <div class="image-container">
         <h3 class="biggetjes-benodigdheden">
-                <label for="onderwerp">Wat is je practicum onderwerp:</label>
-                <select name="onderwerp" id="onderwerp">
-                    <option value="duurzaam">Duurzaam</option>
-                    <option value="estetisch">Estetisch</option>
-                    <option value="stevig">Stevig</option>
-                </select>
-                <br><br><br>
+            <label for="onderwerp">Wat is je practicum onderwerp:</label>
+            <select name="onderwerp" id="onderwerp">
+                <option value="duurzaam">Duurzaam</option>
+                <option value="estetisch">Estetisch</option>
+                <option value="stevig">Stevig</option>
+            </select>
+            <br><br><br>
 
-                Op welke datum wil je in een van de praktijkruimtes aan de slag voor je werkstuk?
-                <label for="dag">datum:</label>
-                <input type="date" id="dag" name="dag">
-                <br><br><br>
-                    Selecteer de benodige praktijk ruimte
-                    <br><br>
-                    <label class="container_button">
-                        <input type="radio" id="3Dprintlokaal" name="CMD_ruimte" value="3Dprintlokaal">
-                        <label for="3Dprintlokaal">3Dprintlokaal voor practicum Duurzaam</label>
-                        <span class="checkmark_b"></span>
-                    </label>
-                    <label class="container_button">
-                        <input type="radio" id="Houtzaaglokaal" name="CMD_ruimte" value="Houtzaaglokaal">
-                        <label for="houtzaaglokaal">Houtzaaglokaal voor practicum Estetisch</label><br>
-                        <span class="checkmark_b"></span>
-                    </label>
-                    <label class="container_button">
-                        <input type="radio" id="Verflokaal" name="CMD_ruimte" value="Verflokaal">
-                        <label for="verflokaal">Verflokaal voor practicum Stevig</label><br>
-                        <span class="checkmark_b"></span>
-                    </label>
-                <br><br><br>
-                Kunnen wij je nog helpen bij het maken van deze opdracht?
-                <br><br>
-                    <label class="container_checkbox">
-                        <input type="checkbox" id="materiaal" name="materiaal" value="Materiaal">
-                        <label for="materiaal"> Ik heb op die dag graag extra ondersteuning bij mijn materiaal keuze</label><br>
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container_checkbox">
-                        <input type="checkbox" id="gereedschap" name="gereedschap" value="Gereedschap">
-                        <label for="gereedschap"> Ik heb graag uitleg bij het gereedschap wat ik ga gebruiken</label><br>
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="container_checkbox">
-                        <input type="checkbox" id="ontwerp" name="ontwerp" value="Ontwerp">
-                        <label for="ontwerp"> Ik zou nog wel wat hulp kunnen gebruiken bij het vertalen van mijn ontwerp naar het model</label><br><br>
-                        <span class="checkmark"></span>
-                    </label>
-                <br><br><br>
+            Op welke datum wil je in een van de praktijkruimtes aan de slag voor je werkstuk?
+            <label for="dag">datum:</label>
+            <input type="date" id="dag" name="dag">
+            <br><br><br>
+            Selecteer de benodige praktijk ruimte
+            <br><br>
+            <input type="radio" id="3Dprintlokaal" name="CMD_ruimte" value="3Dprintlokaal">
+            <label for="3Dprintlokaal">3Dprintlokaal voor practicum Duurzaam</label>
+            <br>
+            <input type="radio" id="Houtzaaglokaal" name="CMD_ruimte" value="Houtzaaglokaal">
+            <label for="Houtzaaglokaal">Houtzaaglokaal voor practicum Esthetisch</label>
+            <br>
+            <input type="radio" id="Verflokaal" name="CMD_ruimte" value="Verflokaal">
+            <label for="Verflokaal">Verflokaal voor practicum Stevig</label>
+            <br><br><br>
+            Kunnen wij je nog helpen bij het maken van deze opdracht?
+            <br><br>
+            <input type="checkbox" id="materiaal" name="materiaal" value="Materiaal">
+            <label for="materiaal"> Ik heb op die dag graag extra ondersteuning bij mijn materiaal keuze</label><br>
+            <input type="checkbox" id="gereedschap" name="gereedschap" value="Gereedschap">
+            <label for="gereedschap"> Ik heb graag uitleg bij het gereedschap wat ik ga gebruiken</label><br>
+            <input type="checkbox" id="ontwerp" name="ontwerp" value="Ontwerp">
+            <label for="ontwerp"> Graag hulp bij het vertalen van mijn ontwerp naar het model</label><br>
+            <br><br><br>
         </h3>
     </div>
     <div class="popup" onclick="PoPupFunction()">
