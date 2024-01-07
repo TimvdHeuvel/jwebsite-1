@@ -1,3 +1,21 @@
+header {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.75;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 125px;
+}
+
 body.general {
     margin: 0;
     padding: 0;
@@ -10,7 +28,7 @@ body.general {
 body#hout {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Tinos', serif;
     background-color: #999;
     background-image: url('../img/houtachtergrond.png');
     background-repeat: repeat;
@@ -19,7 +37,7 @@ body#hout {
 body#steen {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Agency FB', sans-serif;
     background-color: #999;
     background-image: url('../img/steenachtergrond.png');
     background-repeat: repeat;
@@ -28,12 +46,18 @@ body#steen {
 body#riet {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poor Richard', sans-serif;
     background-color: #999;
     background-image: url('../img/rietachtergrond.png');
     background-repeat: repeat;
 }
 
+body#start {
+    margin: 0;
+    padding: 0;
+    font-family: 'Agency FB', sans-serif;
+    background-color: #f0f0f0;
+}
 
 .clearfix::after {
     content: "";
@@ -52,23 +76,12 @@ body#riet {
     left: 25px;
 }
 
-.main-content {
-    text-align: center;
-    margin-top: 125px;
+.biggetjes-rechts {
+    color: whitesmoke;
+    text-align: right;
+    right: 25px;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    opacity: 0.75;
-    padding: 30px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .logo {
     width: 115px;
@@ -192,23 +205,34 @@ header {
 /* Style the button and place it in the middle of the container/image */
 .homebutton .btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
+  background-color: #f2f2f2;
+  color: black;
+      font-family: 'Agency FB', sans-serif;
+  font-size: 35px;
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .homebutton .btn:hover {
-  background-color: black;
+  background-color: #e978cf;
 }
 
 
-
+footer {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.75;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: right;
+}
 
