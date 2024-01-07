@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Benodigdheden pagina</title>
 </head>
@@ -87,12 +88,20 @@
                 <br><br><br>
         </h3>
     </div>
-    <div>
-        <button type="button" class="image-btn">
-            <img src="img/Bevestig button.png" alt="Bevestigen" width="250">
-        </button>
+    <div class="popup" onclick="PoPupFunction()">
+        <img src="img/Bevestig button.png" alt="Tutorial" class="button-image">
+        <span class="popuptext" id="myPopup">Fake button<br>Niet echt opgeslagen</span>
     </div>
 </div>
+
+
+<script>
+    function PoPupFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+</script>
+
 <script>
     function HamburgerFunction() {
       var x = document.getElementById("myTopnav");

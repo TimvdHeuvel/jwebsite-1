@@ -7,7 +7,7 @@ body.general {
     background-repeat: repeat;
 }
 
-body.hout {
+body#hout {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -16,7 +16,7 @@ body.hout {
     background-repeat: repeat;
 }
 
-body.steen {
+body#steen {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -25,7 +25,7 @@ body.steen {
     background-repeat: repeat;
 }
 
-body.riet {
+body#riet {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -252,6 +252,11 @@ header {
     width: 200px;
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.column-image {
+    display: flex;
+    flex-direction: column;
 }
 
 .start-image {
