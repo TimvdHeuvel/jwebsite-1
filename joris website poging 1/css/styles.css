@@ -238,14 +238,14 @@ fieldset {
 /* Style the button and place it in the middle of the container/image */
 .homebutton .btn {
   position: absolute;
-  top: 45%;
-  left: 25%;
+  top: 12%;
+  left: 15%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #f2f2f2;
   color: black;
       font-family: 'Agency FB', sans-serif;
-  font-size: 35px;
+  font-size: 42px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
