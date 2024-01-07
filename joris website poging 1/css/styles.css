@@ -76,6 +76,14 @@ body#start {
     left: 25px;
 }
 
+fieldset {
+  border: 4px solid whitesmoke;
+  border-radius: 5px;
+  max-width: 950px;
+
+}
+
+
 .biggetjes-rechts {
     color: whitesmoke;
     text-align: right;
