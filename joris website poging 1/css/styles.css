@@ -25,6 +25,23 @@ body.general {
     background-repeat: repeat;
 }
 
+/* On screens that are 992px or less, set the background color to pink */
+@media screen and (max-width: 800px) {
+  body.general {
+    background-color: #ceb4c0;
+    background-image: url('../img/NoseGray3.png');
+  }
+}
+
+/* On screens that are 600px or less, set the background color back to grey */
+@media screen and (max-width: 600px) {
+  body.general {
+    background-color: #999;
+    background-image: url('../img/NoseGray.png');
+  }
+}
+
+
 body#hout {
     margin: 0;
     padding: 0;
@@ -71,7 +88,7 @@ body#start {
 
 .biggetjes-benodigdheden {
     color: whitesmoke;
-    max-width: 750px;
+    max-width: 800px;
     text-align: left;
     left: 25px;
 }
@@ -176,7 +193,7 @@ fieldset {
   display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -185,7 +202,7 @@ fieldset {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     right: 0;
