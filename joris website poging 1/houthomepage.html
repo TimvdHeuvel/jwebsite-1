@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Stevigheid at home</title>
+</head>
+<header class="clearfix">
+    <a href="homepage.html"><img src="img/techlab-logo.png" alt="Home button" class="logo"></a>
+    <div class="topnav" id="myTopnav">
+        <a href="benodigdheden.html">Benodigdheden</a>
+        <a href="advies.html">Advies</a>
+        <a href="mijnprojecten.html">Mijn project</a>
+        <a href="overons.html">Over ons</a>
+        <a href="javascript:void(0);" class="icon" onclick="HamburgerFunction()">
+            <i class="fa fa-bars" style="font-size:35px;color:smokewhite;margin-right: 20px"></i>
+        </a>
+    </div>
+</header>
+<body class="hout">
+<div class="main-content">
+    <img src="img/StijlStempel.png" alt="Esthetisch" class="stempel-image">
+    <h1 class="biggetjes-verhaal">
+        De stempel hierboven klopt niet, welkom op de steen pagina.
+    </h1>
+    <div class="image-container">
+        <div>
+            <img src="img/houthuis1.png" alt="hout" class="house-image">
+        </div>
+        <div>
+            <h2 class="biggetjes-benodigdheden">
+                Dit is de algemene introductie text waarin ik netjes uitleg dat de onderstaande tekst uit het verhaal van de broeders Grimm komt.
+            </h2>
+        </div>
+    </div>
+    <div class="image-container">
+        <h3 class="biggetjes-benodigdheden">
+                Werkelijk geen idee waarom hout meer esthetisch is.
+        </h3>
+    </div>
+</div>
+
+<script>
+    function HamburgerFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+</body>
+</html>
